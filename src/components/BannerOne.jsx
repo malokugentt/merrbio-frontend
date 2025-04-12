@@ -68,20 +68,20 @@ const BannerOne = () => {
                                 <div className="banner-slider__inner flex-between position-relative">
                                     <div className="banner-item__content">
                                         <h1 className="banner-item__title bounce">
-                                            Daily Grocery Order and Get Express Delivery
+                                           MerrBio: Lidhje të drejtpërdrejta, cilësi të garantuar.
                                         </h1>
                                         <Link
                                             to="/shop"
                                             className="btn btn-main d-inline-flex align-items-center rounded-pill gap-8"
                                         >
-                                            Explore Shop{" "}
+                                            Eksploro{" "}
                                             <span className="icon text-xl d-flex">
                                                 <i className="ph ph-shopping-cart-simple" />{" "}
                                             </span>
                                         </Link>
                                     </div>
                                     <div className="banner-item__thumb">
-                                        <img src="assets/images/thumbs/banner-img1.png" alt="" />
+                                        <img src="assets/images/logo/banner3.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -89,20 +89,20 @@ const BannerOne = () => {
                                 <div className="banner-slider__inner flex-between position-relative">
                                     <div className="banner-item__content">
                                         <h1 className="banner-item__title">
-                                            Daily Grocery Order and Get Express Delivery
+                                            MerrBio: Udhëhiqni me cilësi, bashkëpunoni për mundësi.
                                         </h1>
                                         <Link
                                             to="/shop"
                                             className="btn btn-main d-inline-flex align-items-center rounded-pill gap-8"
                                         >
-                                            Explore Shop{" "}
+                                            Eksploro{" "}
                                             <span className="icon text-xl d-flex">
                                                 <i className="ph ph-shopping-cart-simple" />{" "}
                                             </span>
                                         </Link>
                                     </div>
                                     <div className="banner-item__thumb">
-                                        <img src="assets/images/thumbs/banner-img3.png" alt="" />
+                                        <img src="assets/images/logo/banner2.png" alt="" />
                                     </div>
                                 </div>
                             </div>

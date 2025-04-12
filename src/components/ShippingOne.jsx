@@ -11,9 +11,9 @@ const ShippingOne = () => {
                                 <i className="ph-fill ph-car-profile" />
                             </span>
                             <div className="">
-                                <h6 className="mb-0">Free Shipping</h6>
+                                <h6 className="mb-0">Dërgesë Falas.</h6>
                                 <span className="text-sm text-heading">
-                                    Free shipping all over the US
+                                   Dërgesë Falas mbi 20€
                                 </span>
                             </div>
                         </div>
@@ -24,9 +24,9 @@ const ShippingOne = () => {
                                 <i className="ph-fill ph-hand-heart" />
                             </span>
                             <div className="">
-                                <h6 className="mb-0"> 100% Satisfaction</h6>
+                                <h6 className="mb-0">100% Kënaqësi.</h6>
                                 <span className="text-sm text-heading">
-                                    Free shipping all over the US
+                                     Kënaqësi për Çdo Blerje
                                 </span>
                             </div>
                         </div>
@@ -37,9 +37,9 @@ const ShippingOne = () => {
                                 <i className="ph-fill ph-credit-card" />
                             </span>
                             <div className="">
-                                <h6 className="mb-0"> Secure Payments</h6>
+                                <h6 className="mb-0">Pagesa të Sigurta</h6>
                                 <span className="text-sm text-heading">
-                                    Free shipping all over the US
+                                    Paguaj Sigurt, Paguaj Lehtë
                                 </span>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ const ShippingOne = () => {
                                 <i className="ph-fill ph-chats" />
                             </span>
                             <div className="">
-                                <h6 className="mb-0"> 24/7 Support</h6>
+                                <h6 className="mb-0"> 24/7 Suport</h6>
                                 <span className="text-sm text-heading">
-                                    Free shipping all over the US
+                                    Mbështetje në çdo kohë
                                 </span>
                             </div>
                         </div>

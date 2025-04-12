@@ -119,7 +119,7 @@ const HeaderOne = () => {
                                     className="nav-menu__link"
 
                                 >
-                                    Home
+                                    Ballina
                                 </Link>
                                
                             </li>
@@ -134,7 +134,7 @@ const HeaderOne = () => {
                                     className="nav-menu__link"
 
                                 >
-                                    Shop
+                                    Blej
                                 </Link>
                                 <ul
                                     className={`on-hover-dropdown common-dropdown nav-submenu scroll-sm ${activeIndex === 1 ? "open" : ""
