@@ -28,117 +28,79 @@ const ShopSection = () => {
                             >
                                 <i className="ph ph-x" />
                             </button>
-                            <div className="shop-sidebar__box border border-gray-100 rounded-8 p-32 mb-32">
-                                <h6 className="text-xl border-bottom border-gray-100 pb-24 mb-24">
-                                    Product Category
-                                </h6>
-                                <ul className="max-h-540 overflow-y-auto scroll-sm">
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Mobile &amp; Accessories (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Laptop (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Electronics (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Smart Watch (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Storage (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Portable Devices (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Action Camera (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Smart Gadget (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Monitor (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Smart TV (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Camera (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-24">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Monitor Stand (12)
-                                        </Link>
-                                    </li>
-                                    <li className="mb-0">
-                                        <Link
-                                            to="/product-details-two"
-                                            className="text-gray-900 hover-text-main-600"
-                                        >
-                                            Headphone (12)
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div className="shop-sidebar__box border border-gray-100 rounded-8 p-32 mb-32">
+                        <h6 className="text-xl border-bottom border-gray-100 pb-24 mb-24">
+                            Kategoritë e Produkteve
+                        </h6>
+                        <ul className="max-h-540 overflow-y-auto scroll-sm">
+                            <li className="mb-24">
+                                <Link to="/products/fruta" className="text-gray-900 hover-text-main-600">
+                                    Fruta të Freskëta (20)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/perime" className="text-gray-900 hover-text-main-600">
+                                    Perime të Freskëta (18)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/bulmet" className="text-gray-900 hover-text-main-600">
+                                    Produkte Bulmeti (15)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/vezë" className="text-gray-900 hover-text-main-600">
+                                    Vezë të Fshatit (10)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/mjaltë" className="text-gray-900 hover-text-main-600">
+                                    Mjaltë Natyral (8)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/erëza" className="text-gray-900 hover-text-main-600">
+                                    Erëza Bio (6)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/qumësht" className="text-gray-900 hover-text-main-600">
+                                    Qumësht i Freskët (7)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/ushqime-të-konservuara" className="text-gray-900 hover-text-main-600">
+                                    Ushqime të Përpunuara (5)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/mish" className="text-gray-900 hover-text-main-600">
+                                    Mish i Fshatit (4)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/produkte-të-thata" className="text-gray-900 hover-text-main-600">
+                                    Produkte të Thata (7)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/lëngje" className="text-gray-900 hover-text-main-600">
+                                    Lëngje Natyrale (9)
+                                </Link>
+                            </li>
+                            <li className="mb-24">
+                                <Link to="/products/produkte-bio" className="text-gray-900 hover-text-main-600">
+                                    Produkte Bio (12)
+                                </Link>
+                            </li>
+                            <li className="mb-0">
+                                <Link to="/products/bimë-mjekësore" className="text-gray-900 hover-text-main-600">
+                                    Bimë Mjekësore (6)
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
                             <div className="shop-sidebar__box border border-gray-100 rounded-8 p-32 mb-32">
                                 <h6 className="text-xl border-bottom border-gray-100 pb-24 mb-24">
                                     Filter by Price

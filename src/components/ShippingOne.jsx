@@ -52,7 +52,7 @@ const ShippingOne = () => {
                             <div className="">
                                 <h6 className="mb-0"> 24/7 Suport</h6>
                                 <span className="text-sm text-heading">
-                                    Mbështetje në çdo kohë
+                                    Mbështetje në çdo
                                 </span>
                             </div>
                         </div>

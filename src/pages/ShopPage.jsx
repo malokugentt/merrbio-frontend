@@ -25,7 +25,7 @@ const ShopPage = () => {
       <HeaderTwo category={true} />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Shop"} />
+      <Breadcrumb title={"Ballina"} />
 
       {/* ShopSection */}
       <ShopSection />
